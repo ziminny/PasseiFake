@@ -1,0 +1,16 @@
+PODS:
+  - PasseiFake (0.1.0)
+
+DEPENDENCIES:
+  - PasseiFake (from `../`)
+
+EXTERNAL SOURCES:
+  PasseiFake:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PasseiFake: a84564fd1c79992ec30a214ab7fe72860ec261d5
+
+PODFILE CHECKSUM: 0822839287bf18c142047a5c2a05144b1e95e5af
+
+COCOAPODS: 1.12.1

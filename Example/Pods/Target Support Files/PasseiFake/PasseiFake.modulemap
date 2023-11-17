@@ -1,0 +1,6 @@
+framework module PasseiFake {
+  umbrella header "PasseiFake-umbrella.h"
+
+  export *
+  module * { export * }
+}
