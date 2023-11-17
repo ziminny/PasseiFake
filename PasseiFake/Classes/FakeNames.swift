@@ -7,11 +7,11 @@
 
 import Foundation
 
-class FakeNames:FalsifiedDataProtocol {
+public class FakeNames:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value:Value {
+    public var value:Value {
         [
             "Gabriel da Silva",
             "Sophia Costa",
@@ -101,7 +101,7 @@ class FakeNames:FalsifiedDataProtocol {
         ].randomElement() ?? "João Victor Lima"
     }
 
-    required init() {}
+    required public init() {}
 
 }
 

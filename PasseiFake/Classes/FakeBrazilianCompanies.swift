@@ -8,9 +8,9 @@
 import Foundation
 
 public class FakeBrazilianCompanies:FalsifiedDataProtocol {
-  typealias Value = String
+    public typealias Value = String
     
-    var value: Value {
+    public var value: Value {
         [
             "Acme Comércio Ltda",
             "BrasilTech Soluções S.A.",
@@ -104,5 +104,5 @@ public class FakeBrazilianCompanies:FalsifiedDataProtocol {
             "EcoGreen Soluções Sustentáveis Ltda",].randomElement() ?? "098.765.432-99"
     }
     
-    required init() {}
+    required public init() {}
 }

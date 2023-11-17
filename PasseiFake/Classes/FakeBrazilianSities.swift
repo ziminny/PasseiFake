@@ -9,9 +9,9 @@ import Foundation
 
 public class FakeBrazilianSities:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value: Value {
+    public var value: Value {
         [
             "São Paulo",
             "Rio de Janeiro",
@@ -109,6 +109,6 @@ public class FakeBrazilianSities:FalsifiedDataProtocol {
         ].randomElement() ?? "São Vicente"
     }
     
-    required init() {}
+    required public init() {}
     
 }

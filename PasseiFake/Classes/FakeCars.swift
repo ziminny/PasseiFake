@@ -9,9 +9,9 @@ import Foundation
 
 class FakeCars:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value:Value {
+    public var value:Value {
         [
             "Ferrari 458",
             "Toyota Corolla",
@@ -56,7 +56,7 @@ class FakeCars:FalsifiedDataProtocol {
         ].randomElement() ?? "Genesis G80"
     }
 
-    required init() {}
+    required public init() {}
 
 }
 

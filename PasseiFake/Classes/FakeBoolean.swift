@@ -9,10 +9,10 @@ import Foundation
 
 public class FakeBoolean:FalsifiedDataProtocol {
     
-    typealias Value = Bool
+    public typealias Value = Bool
     
-    var value: Value { Bool.random() }
+    public var value: Value { Bool.random() }
     
-    required init() {}
+    required public init() {}
     
 }

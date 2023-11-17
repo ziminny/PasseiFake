@@ -9,9 +9,9 @@ import Foundation
 
 public class FakeCPF:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value: Value {
+    public var value: Value {
         [
             "123.456.789-09",
             "234.567.890-18",
@@ -106,5 +106,5 @@ public class FakeCPF:FalsifiedDataProtocol {
         ].randomElement() ?? "098.765.432-99"
     }
     
-    required init() {}
+    required public init() {}
 }

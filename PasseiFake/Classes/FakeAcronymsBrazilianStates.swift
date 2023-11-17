@@ -9,9 +9,9 @@ import Foundation
 
 public class FakeAcronymsBrazilianStates:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value: Value {
+    public var value: Value {
         [
             "AC",
             "AL",
@@ -43,7 +43,7 @@ public class FakeAcronymsBrazilianStates:FalsifiedDataProtocol {
         ].randomElement() ?? "PR"
     }
     
-    required init() {}
+    required public init() {}
     
 }
 

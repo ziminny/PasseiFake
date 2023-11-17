@@ -9,9 +9,9 @@ import Foundation
 
 public class FakeEmails:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value: Value {
+    public var value: Value {
         [
             "joaosilva@gmail.com",
             "anapereira@hotmail.com",
@@ -119,7 +119,7 @@ public class FakeEmails:FalsifiedDataProtocol {
 .randomElement() ?? "lais.silva@hotmail.com"
     }
     
-    required init() {}
+    required public init() {}
     
 }
 

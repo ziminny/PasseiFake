@@ -9,9 +9,9 @@ import Foundation
 
 public class FakeBrazilianStates:FalsifiedDataProtocol {
     
-    typealias Value = String
+    public typealias Value = String
     
-    var value: Value {
+    public var value: Value {
         [
             "Acre",
             "Alagoas",
@@ -44,6 +44,6 @@ public class FakeBrazilianStates:FalsifiedDataProtocol {
 
     }
     
-    required init() {}
+    required public init() {}
     
 }
