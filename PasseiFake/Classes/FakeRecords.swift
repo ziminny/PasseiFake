@@ -7,26 +7,11 @@
 
 import Foundation
 
-enum Oftype {
-    case anyNumberOf
-    case personNames
-    case age
-    case double
-}
-
-class FakeRecords {
-
-    func getRandomValue(ofType type:Oftype) -> Any {
-        
-        switch type {
-            case .anyNumberOf:
-                return FakeIntegers.fakeIntegers32
-            case .personNames:
-                return FakeNames.getItems.randomElement() as Any
-            case .age:
-                return FakeIntegers.fakeIntegersAges
-        case .double:
-            return FakeIntegers.fakeDouble
-        }
+public class FakeRecords {
+    public func getRandomValue<T:FalsifiedDataProtocol>(ofType type:T.Type) -> T.Value {
+        let instance = type.init()
+        return instance.value
     }
+
+    public init() {}
 }
