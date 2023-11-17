@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
     s.summary               = 'Generate random datas'
     s.swift_version         = '5.0'
     s.description           = <<-DESC "Fake datas form preview or fill UITableviewCell"
+    Generate random datas
     DESC
     s.homepage              = 'https://github.com/ziminny/PasseiFake'
     s.license               = { :type => 'PASSEI-GROUP', :file => 'LICENSE' }
