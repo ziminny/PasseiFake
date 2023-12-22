@@ -74,7 +74,7 @@ public class FakeQuention: FalsifiedDataProtocol {
             "Quais são os desafios legais e éticos na utilização de tecnologias de reconhecimento facial em sistemas de segurança pública?",
             "Quais são os principais princípios éticos relacionados à publicidade de advogados e escritórios de advocacia?"
 
-        ].randomElement() ?? "Quais são os fundamentos e os limites da liberdade de expressão?",
+        ].randomElement() ?? "Quais são os fundamentos e os limites da liberdade de expressão?"
     }
     
     required public init() {}

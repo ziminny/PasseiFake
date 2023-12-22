@@ -33,7 +33,7 @@ public class FakeMatter: FalsifiedDataProtocol {
             "Direito da Saúde",
             "Direito Desportivo",
             "Direito da Família"
-        ].randomElement() ?? "Direito Desportivo",
+        ].randomElement() ?? "Direito Desportivo"
     }
     
     required public init() {}

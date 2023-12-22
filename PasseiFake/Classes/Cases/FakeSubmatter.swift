@@ -62,7 +62,7 @@ public class FakeSubmatter: FalsifiedDataProtocol {
             "Direito Processual Civil",
             "Aposentadoria",
             "Responsabilidade no Esporte"
-        ].randomElement() ?? "Direito Processual Civil",
+        ].randomElement() ?? "Direito Processual Civil"
     }
     
     required public init() {}

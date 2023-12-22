@@ -50,7 +50,7 @@ public class FakeAnswer: FalsifiedDataProtocol {
             "O direito do consumidor protege os indivíduos contra práticas abusivas e defeitos em produtos ou serviços adquiridos.",
             "A proteção de dados de crianças na internet envolve regulamentações específicas para garantir sua privacidade e segurança.",
             "A justiça restaurativa prioriza a reconciliação"
-        ].randomElement() ?? "O direito do consumidor protege os indivíduos contra práticas abusivas e defeitos em produtos ou serviços adquiridos.",
+        ].randomElement() ?? "O direito do consumidor protege os indivíduos contra práticas abusivas e defeitos em produtos ou serviços adquiridos."
     }
     
     required public init() {}
