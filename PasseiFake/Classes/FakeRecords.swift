@@ -7,11 +7,22 @@
 
 import Foundation
 
+/// Classe responsável por gerar dados falsificados para testes ou outros propósitos.
 public class FakeRecords {
-    public func getRandomValue<T:FalsifiedDataProtocol>(ofType type:T.Type) -> T.Value {
+    /// Obtém um valor falsificado de um tipo que conforma ao protocolo `FalsifiedDataProtocol`.
+    ///
+    /// - Parameters:
+    ///   - type: O tipo que conforma ao protocolo `FalsifiedDataProtocol`.
+    /// - Returns: O valor falsificado gerado.
+    ///
+    /// - Note: Este método cria uma instância do tipo fornecido e retorna o valor falsificado gerado pela propriedade `value` do tipo conformado.
+    public func getRandomValue<T: FalsifiedDataProtocol>(ofType type: T.Type) -> T.Value {
         let instance = type.init()
         return instance.value
     }
 
+    /// Inicializa uma instância da classe `FakeRecords`.
     public init() {}
+    
 }
+
